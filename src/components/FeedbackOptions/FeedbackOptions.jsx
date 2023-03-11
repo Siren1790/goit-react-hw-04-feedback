@@ -1,9 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Button, Feedback} from './FeedbackOptions.module';
+import { Button, Feedback } from './FeedbackOptions.module';
 
-
-export const FeedbackOptions = ({ options, onLeaveFeedback}) => {
+export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <Feedback>
       {options.map((key, index) => (

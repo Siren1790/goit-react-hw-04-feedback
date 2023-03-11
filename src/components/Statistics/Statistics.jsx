@@ -9,7 +9,9 @@ export const Statistics = ({ total, positive, state }) => {
       <Paragraph>Neutral: {state.neutral}</Paragraph>
       <Paragraph>Bad: {state.bad}</Paragraph>
       <Paragraph>Total: {total()}</Paragraph>
-      <Paragraph>Positive feedback: {positive() ? positive() : '0'} %</Paragraph>
+      <Paragraph>
+        Positive feedback: {positive() ? positive() : '0'} %
+      </Paragraph>
     </Section>
   );
 };
